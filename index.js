@@ -18,20 +18,20 @@ app.get('/cuenta/:idClient', (req, res) => {
 });
 //endpoint para verificar que parametros manda
 app.get('/cuentas', (req, res) => {
-  const {_id, name, gender} = req.query;
+  const {_id, client, gender} = req.query;
 
   //mostrar todos los clientes sino manda parametros
-  if (!_id && !name && !gender) {
+  if (!_id && !client && !gender) {
     return res.send({
     count: clients.length,
     data: clients
     });
   }
-  const FindedClients = clients.filter(client =>{
+  const FindedClients = clients.filter(xClient =>{
     return(
-      (!_id || client._id === _id) &&
-      (!name || client.name === name) &&
-      (!gender || client.gender === gender)
+      (!_id || xClient._id === _id) &&
+      (!client || xClient.client === client) &&
+      (!gender || xClient.gender === gender)
     );
   });
 

@@ -4,7 +4,7 @@ export const clients = [
     isActive: false,
     balance: "$34,711.06",
     picture: "http://placehold.it/32x32",
-    name: "Elvia Gilmore",
+    client: "Elvia Gilmore",
     gender: "female",
   },
   {
@@ -12,7 +12,7 @@ export const clients = [
     isActive: false,
     balance: "$33,808.54",
     picture: "http://placehold.it/32x32",
-    name: "Hattie Morales",
+    client: "Hattie Morales",
     gender: "female",
   },
   {
@@ -20,7 +20,7 @@ export const clients = [
     isActive: false,
     balance: "$37,288.53",
     picture: "http://placehold.it/32x32",
-    name: "Rose Glass",
+    client: "Rose Glass",
     gender: "female",
   },
   {
@@ -28,7 +28,7 @@ export const clients = [
     isActive: true,
     balance: "$34,675.28",
     picture: "http://placehold.it/32x32",
-    name: "Lang Glover",
+    client: "Lang Glover",
     gender: "male",
   },
   {
@@ -36,7 +36,7 @@ export const clients = [
     isActive: false,
     balance: "$48,836.36",
     picture: "http://placehold.it/32x32",
-    name: "Dolly Travis",
+    client: "Dolly Travis",
     gender: "female",
   },
   {
@@ -44,7 +44,7 @@ export const clients = [
     isActive: false,
     balance: "$31,662.04",
     picture: "http://placehold.it/32x32",
-    name: "Jacobs Dale",
+    client: "Jacobs Dale",
     gender: "male",
   },
   {
@@ -52,7 +52,7 @@ export const clients = [
     isActive: true,
     balance: "$34,076.94",
     picture: "http://placehold.it/32x32",
-    name: "Logan Simon",
+    client: "Logan Simon",
     gender: "male",
   },
 ];
